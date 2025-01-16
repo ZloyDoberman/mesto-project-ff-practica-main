@@ -1,0 +1,19 @@
+.page__section {
+width: 100%;
+max-width: 1030px;
+margin: auto;
+display: flex;
+align-items: center;
+}
+
+.slider__wrapper {
+  overflow: hidden;
+  width: 930px;
+  position: relative;
+}
+
+@media screen and (max-width: 1140px) {
+  .page__section {
+    width: calc(100% - 40px);
+  }
+}

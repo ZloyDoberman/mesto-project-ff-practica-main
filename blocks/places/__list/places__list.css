@@ -1,0 +1,5 @@
+.places__list {
+display: flex;
+transition: transform 0.5s ease-in-out;
+padding-left: 0;
+}
